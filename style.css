@@ -1,0 +1,40 @@
+*{
+   color: black
+}
+
+:root{
+    --red: red;
+}
+
+p{
+    color: var(--red);
+}
+.nigora{
+    color: black;
+}
+.nigora1{
+    font-weight: bold;
+}
+
+p.nigora::after{
+    content: " 👩‍💻 ";
+}
+
+
+
+.nigora::first-letter{
+    color: #15f011;
+    font-size: 40px;
+}
+.nigora::first-line{
+    color: #15f011;
+}
+
+input:checked + span{
+    background: red;
+}
+
+a:hover{
+    background: red;
+    color: white;
+}
